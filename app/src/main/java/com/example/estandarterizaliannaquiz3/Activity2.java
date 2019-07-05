@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -12,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Activity2 extends AppCompatActivity {
 
-    TextView txtName, txtPassword, txtEmail;
+    EditText txtName, txtPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
